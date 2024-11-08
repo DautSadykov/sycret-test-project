@@ -1,5 +1,8 @@
 # Проектная работа "Sycret certificate shop"
 
+Ссылка на рабочий сайт:
+https://dauts-sycret.netlify.app/
+
 Стек: HTML, SCSS, JS, Vite
 
 Структура проекта:

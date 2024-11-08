@@ -1,8 +1,30 @@
-# React + Vite
+# Проектная работа "Sycret certificate shop"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Стек: HTML, SCSS, JS, Vite
 
-Currently, two official plugins are available:
+Структура проекта:
+- src/ — исходные файлы проекта
+- src/routes/ — папка с React Router компонентами
+- src/app/ и src/app/ — папки для доступа к данным React Redux
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Важные файлы:
+- ./index.html — HTML-файл главной страницы
+- src/main.js — точка входа в приложение
+- src/App.js — файл перехода по routes
+- src/config.js — файл с данными для подключения к API
+- src/app.css — корневой файл стилей
+
+
+## Установка и запуск
+Для установки и запуска проекта необходимо выполнить команды
+
+```
+npm install
+npm run dev
+```
+
+## Сборка
+
+```
+npm run build
+```
